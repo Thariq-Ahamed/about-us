@@ -1,0 +1,323 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  min-height: 100vh;
+  background-color: #E5E5E5;
+  font-family: "Satoshi", sans-serif; }
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  /* 1rem = 10px as changed in html default 16px*/
+  font-size: 1.5rem; }
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #DDECF8; }
+  .banner_content {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 4rem; }
+    .banner_content--para {
+      margin: 2rem auto;
+      max-width: 600px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 33px;
+      /* or 183% */
+      text-transform: capitalize;
+      color: #444054; }
+    .banner_content--list {
+      margin: 2rem auto;
+      max-width: 600px;
+      padding-left: 1.5rem;
+      list-style-image: url(/assets/icons/check-circle.png);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+      text-transform: capitalize;
+      color: #444054; }
+  @media (min-width: 992px) {
+    .banner {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      min-height: calc(100vh - 101px); }
+      .banner_content {
+        text-align: left;
+        margin-right: 3rem;
+        align-items: flex-start; } }
+  .banner_image {
+    margin-top: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 4rem; }
+
+.banner2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #DDECF8; }
+  .banner2_content {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 4rem; }
+    .banner2_content--para {
+      margin: 2rem auto;
+      max-width: 600px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 33px;
+      /* or 183% */
+      text-transform: capitalize;
+      color: #444054; }
+    .banner2_content--list {
+      margin: 2rem auto;
+      max-width: 600px;
+      padding-left: 1.5rem;
+      list-style-image: url(/assets/icons/check-circle.png);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+      text-transform: capitalize;
+      color: #444054; }
+  @media (min-width: 992px) {
+    .banner2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      min-height: calc(100vh - 101px); }
+      .banner2_content {
+        text-align: left;
+        margin-right: 3rem;
+        align-items: flex-start; } }
+  .banner2_image {
+    margin-top: 5rem;
+    margin-bottom: 4rem; }
+
+.banner3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: white;
+  background-repeat: no-repeat; }
+  .banner3_content {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 4rem;
+    font-family: "Satoshi", sans-serif; }
+    .banner3_content--heading {
+      margin-top: 5rem;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 42px;
+      line-height: 63px;
+      /* identical to box height, or 150% */
+      text-align: center;
+      text-transform: capitalize;
+      color: #000000; }
+    .banner3_content--para {
+      margin: 2rem auto;
+      max-width: 850px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      /* or 167% */
+      text-align: center;
+      text-transform: capitalize;
+      color: #64648C; }
+    .banner3_content--btns {
+      margin-top: 1rem; }
+      .banner3_content--btns .btn3 {
+        border: none;
+        padding: 1.2rem 2.2rem;
+        font-family: "Satoshi", sans-serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out; }
+        .banner3_content--btns .btn3.btn-demo {
+          margin-right: 1rem;
+          background-color: #E5E5E5; }
+          .banner3_content--btns .btn3.btn-demo:hover {
+            background-color: #368DD3;
+            color: white; }
+  .banner3 .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .banner3 .card-deck .card {
+      width: 30%;
+      margin: 1rem; }
+      .banner3 .card-deck .card video {
+        width: 100%;
+        border-radius: 1.5rem;
+        border-style: inset; }
+      .banner3 .card-deck .card .card-body {
+        text-align: center; }
+
+.banner__head {
+  background-color: #DDECF8; }
+  .banner__head--head1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 63px;
+    /* identical to box height, or 147% */
+    text-align: center;
+    text-transform: capitalize;
+    color: #111111;
+    padding-top: 5rem; }
+  .banner__head--head2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 63px;
+    /* identical to box height, or 83% */
+    text-align: center;
+    text-transform: capitalize;
+    color: #111111;
+    margin-top: 3rem; }
+  .banner__head--head3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 42px;
+    /* or 162% */
+    text-align: center;
+    text-transform: capitalize;
+    color: #111111;
+    margin-top: 3rem; }
+
+.footer-para {
+  margin: 2rem auto;
+  line-height: 1.2;
+  font-size: 1.6rem;
+  font-weight: medium;
+  color: #E5E5E5;
+  text-align: left; }
+
+.footer-para1 {
+  margin: 2rem auto;
+  line-height: 1.2;
+  font-size: 1.6rem;
+  font-weight: medium;
+  color: #E5E5E5;
+  text-align: left; }
+
+.footer-rights {
+  margin: 2rem auto;
+  margin-top: 10rem;
+  font-size: 1rem;
+  font-weight: medium;
+  color: #E5E5E5;
+  text-align: justify; }
+
+.container {
+  max-width: 1170px;
+  margin: auto; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap; }
+
+ul {
+  list-style: none; }
+
+.footer {
+  background-color: #00122E;
+  padding: 70px 0; }
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px; }
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative; }
+
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px; }
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px; }
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease; }
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px; }
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 10px 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease; }
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff; }
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px; } }
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%; } }
