@@ -59,6 +59,7 @@ body{
             text-transform: capitalize;
 
             color: #444054;
+            text-align: justify;
 
         }
 
@@ -141,6 +142,7 @@ body{
             text-transform: capitalize;
 
             color: #444054;
+            text-align: justify;
 
         }
 
@@ -187,7 +189,7 @@ body{
 
    &_image{
         margin-top: 5rem;
-        // margin-left: 5rem;
+        margin-left: 5rem;
         margin-bottom: 4rem;
    }
 
@@ -375,7 +377,35 @@ body{
  // head b1 end
 
  //Subscribe Start
+.banner3{
+    .subscribe-form {
+        background-color: #444054;
+        
+        width: 1074.31px;
+        height: 195.15px;
+        
+        text-align: center;
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+      label {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 79px;
+        /* identical to box height, or 219% */
 
+
+        color: #FFFFFF;
+
+      }
+      input {
+        margin: 100px 0;
+        background: #FFFFFF;
+        border-radius: 6px; 
+        margin-left: 5rem;
+      }
+    }
+}
   
  //Subscribe End
 

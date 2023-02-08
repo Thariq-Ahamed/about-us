@@ -42,7 +42,8 @@ body {
       line-height: 33px;
       /* or 183% */
       text-transform: capitalize;
-      color: #444054; }
+      color: #444054;
+      text-align: justify; }
     .banner_content--list {
       margin: 2rem auto;
       max-width: 600px;
@@ -93,7 +94,8 @@ body {
       line-height: 33px;
       /* or 183% */
       text-transform: capitalize;
-      color: #444054; }
+      color: #444054;
+      text-align: justify; }
     .banner2_content--list {
       margin: 2rem auto;
       max-width: 600px;
@@ -118,6 +120,7 @@ body {
         align-items: flex-start; } }
   .banner2_image {
     margin-top: 5rem;
+    margin-left: 5rem;
     margin-bottom: 4rem; }
 
 .banner3 {
@@ -218,6 +221,26 @@ body {
     text-transform: capitalize;
     color: #111111;
     margin-top: 3rem; }
+
+.banner3 .subscribe-form {
+  background-color: #444054;
+  width: 1074.31px;
+  height: 195.15px;
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 8rem; }
+  .banner3 .subscribe-form label {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 79px;
+    /* identical to box height, or 219% */
+    color: #FFFFFF; }
+  .banner3 .subscribe-form input {
+    margin: 100px 0;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-left: 5rem; }
 
 .footer-para {
   margin: 2rem auto;
